@@ -1,0 +1,42 @@
+@import '../Vars.scss';
+
+.watchList{
+    background-color:  $color-wine-clear;
+    width: 25%;
+    height: fit-content;
+    margin: 28px ;
+    padding: 30px 20px;
+    color: $color-white-dark;
+    display: flex;
+    flex-direction: column;
+}
+.watchList__list{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: none;
+    padding: 20px 5px;
+    border: none;
+}
+.watchList__list li,ul{
+    border: none;
+}
+.watchList__cell{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    align-items: center;
+    width: inherit;
+    height: inherit;
+}
+img{
+    width: 8%;
+    height: 17px;
+    cursor: pointer;
+}
+img:hover{
+    border: solid 2px black;
+}
+.watchList__cell li {
+    width: 85%;
+}

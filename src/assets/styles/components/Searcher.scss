@@ -1,0 +1,20 @@
+@import '../Vars.scss';
+
+.searcher {
+    display: flex;
+    color: $color-white-dark;
+    flex-direction: column;
+    background-color: black;
+    padding: 30px 20px 0px 20px;
+}
+.searcher input{
+    width: 90px;
+}
+
+.searcher input:invalid{
+    border-color: red;
+}
+#selectSearchButton:disabled{
+    background-color: rgb(136, 38, 38);;
+    cursor: default;
+}

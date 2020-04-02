@@ -1,0 +1,40 @@
+@import './Vars.scss';
+
+* {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box; 
+}
+
+body {
+    margin: 0; 
+    background-image: #F5D6F8//url($color-background);
+} 
+input{
+    min-width: 70px;
+    margin: 0px 10px 0px 10px;
+    border: 3px solid $color-wine-dark;
+    color: $color-white-dark;
+    background-color: $color-wine-clear;
+    font-weight: bold;
+}
+
+button, select{
+    height: 25px;
+    background-color: $color-wine-dark;
+    color: $color-white-dark;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+::placeholder {
+    color: $color-white-dark;
+}
+
+button{
+    width: 60px;
+}
+
+select:focus, input:focus { 
+    outline-color: black;
+}
